@@ -1,0 +1,159 @@
+body {
+    color: white;
+    margin: 0;
+    font-family: Times New Roman, serif;
+    text-align: center;
+    background-image: url('./image3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#Title {
+    font-size: 65px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+
+input {
+    width: 500px;
+    padding: 10px;
+    font-size: 17px;
+    border: 3px solid gray;
+    border-radius: 8px;
+    background: none;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+button {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: grey;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+    color: black;
+    border-color: lightgray;
+}
+
+
+#searchResults {
+    visibility: hidden;
+    margin: auto;
+    width: 70%;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    border: 4px solid gray;
+}
+
+
+.knowledge-graph {
+    border: 5px solid lightgrey;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.knowledge-graph h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.organic-result {
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+}
+
+.organic-result h3 {
+    color: blue;
+    font-size: 18px;
+    margin: 2px 0;
+    font-weight: normal;
+}
+
+.organic-result h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.organic-result p {
+    color: black;
+    font-size: 14px;
+    margin: 4px 0;
+    line-height: 1.5;
+}
+
+#people-also-ask {
+    background: slategrey;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+#people-also-ask h3 {
+    font-size: 18px;
+    margin: 4px 0;
+    color: #d4af37;
+}
+
+#people-also-ask summary {
+    font-size: 15px;
+    cursor: pointer;
+    list-style: none;
+    padding: 4px 0;
+    color: white;
+}
+
+#people-also-ask summary:hover {
+    color: #2b2f32;
+}
+
+#people-also-ask p {
+    font-size: 14px;
+    color: #ccc;
+    margin: 8px 0;
+}
+
+#people-also-ask a {
+    color: #d4af37;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#people-also-ask a:hover {
+    text-decoration: underline;
+}
+
+#related-searches {
+    margin-bottom: 24px;
+}
+
+#related-searches h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #d4af37;
+}
+
+#time {
+    visibility: hidden;
+}
